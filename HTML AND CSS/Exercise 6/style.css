@@ -1,0 +1,859 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+main {
+  padding-top: 1.3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+main nav {
+  padding: 0 1.3rem 1em 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main nav i {
+  font-size: 1.7em;
+}
+main .first-section {
+  padding: 0 1.3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+main .first-section .top-img {
+  width: 100%;
+}
+main .first-section .top-img img {
+  width: 100%;
+}
+main .first-section .bottom {
+  display: flex;
+  justify-content: space-between;
+}
+main .first-section .bottom p {
+  text-transform: uppercase;
+}
+main .second-section {
+  padding: 0 1.3rem;
+  width: 100;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+main .second-section .top-img {
+  width: 100%;
+}
+main .second-section .top-img img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .second-section .bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+main .second-section .bottom .text h1 {
+  font-size: 2.8em;
+  font-weight: 200;
+  line-height: 1;
+  text-transform: uppercase;
+}
+main .second-section .bottom .text p {
+  font-size: 1.6em;
+  font-family: monospace;
+  line-height: 1.3;
+  opacity: 0.8;
+}
+main .second-section .bottom .services {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+main .second-section .bottom .services .service {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+main .second-section .bottom .services .service p {
+  font-size: 1.8em;
+  font-family: gilroy;
+  font-weight: 500;
+  opacity: 1;
+  text-transform: uppercase;
+}
+main .third-section {
+  padding: 0 1.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  width: 100%;
+}
+main .third-section .top-img {
+  width: 100%;
+}
+main .third-section .top-img img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .third-section .text {
+  display: flex;
+  gap: 2em;
+}
+main .third-section .text .vertical-text p {
+  padding-top: 1em;
+  text-transform: uppercase;
+  writing-mode: vertical-lr;
+}
+main .third-section .text .bottom-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+main .third-section .text .bottom-text h1 {
+  font-size: 3em;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 1;
+}
+main .third-section .text .bottom-text p {
+  font-size: 1.6em;
+  line-height: 1.3;
+  font-family: monospace;
+  opacity: 0.5;
+}
+main .fourth-section {
+  padding: 0 1.3rem;
+  width: 100%;
+  padding-top: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+main .fourth-section .left {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+main .fourth-section .left h1 {
+  font-size: 3em;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+main .fourth-section .left .boxs {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  width: 100%;
+}
+main .fourth-section .left .boxs .first-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+main .fourth-section .left .boxs .first-box .box {
+  padding-top: 1em;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid rgb(99, 99, 99);
+  gap: 0.8em;
+}
+main .fourth-section .left .boxs .first-box .box h3 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+main .fourth-section .left .boxs .first-box .box p {
+  font-size: 1.3em;
+  font-weight: 500;
+  font-family: monospace;
+  opacity: 0.5;
+}
+main .fourth-section .left .boxs .first-box .box .bottom-box {
+  padding-top: 1.2em;
+  width: 100%;
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+main .fourth-section .left .boxs .first-box .box .bottom-box i {
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  padding: 0.2em;
+  font-size: 1.5em;
+}
+main .fourth-section .left .boxs .first-box .box .bottom-box p {
+  text-transform: uppercase;
+}
+main .fourth-section .left .boxs .second-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+main .fourth-section .left .boxs .second-box .box {
+  padding-top: 1em;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid rgb(99, 99, 99);
+  gap: 0.8em;
+}
+main .fourth-section .left .boxs .second-box .box h3 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+main .fourth-section .left .boxs .second-box .box p {
+  font-size: 1.3em;
+  font-weight: 500;
+  font-family: monospace;
+  opacity: 0.5;
+}
+main .fourth-section .left .boxs .second-box .box .bottom-box {
+  padding-top: 1.2em;
+  width: 100%;
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+main .fourth-section .left .boxs .second-box .box .bottom-box i {
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  padding: 0.2em;
+  font-size: 1.5em;
+}
+main .fourth-section .left .boxs .second-box .box .bottom-box p {
+  text-transform: uppercase;
+}
+main .fourth-section .right {
+  width: 100%;
+}
+main .fourth-section .right .bg-img {
+  width: 100%;
+}
+main .fourth-section .right .bg-img img {
+  width: 100%;
+}
+main .fifth-section {
+  padding: 0 1.3rem;
+  padding-top: 3em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+main .fifth-section h1 {
+  text-align: center;
+  font-size: 3em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+main .fifth-section .top-imgs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+main .fifth-section .bottom-imgs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+main .fifth-section .img {
+  width: 100%;
+}
+main .fifth-section .img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .fifth-section .img:nth-child(2) {
+  display: none;
+}
+main .fifth-section .text {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  width: 100%;
+}
+main .fifth-section .text .top-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+main .fifth-section .text .top-box h3 {
+  font-size: 2.4em;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+main .fifth-section .text .top-box p {
+  font-family: monospace;
+  font-size: 1.5em;
+  opacity: 0.8;
+}
+main .fifth-section .text .bottom-box {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+main .fifth-section .text .bottom-box i {
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  padding: 0.2em;
+  font-size: 1.5em;
+}
+main .fifth-section .text .bottom-box p {
+  text-transform: uppercase;
+}
+main .sixth-section {
+  padding: 0 1.3rem;
+  padding-top: 2em;
+  width: 100%;
+}
+main .sixth-section .content .top-heading {
+  width: 100%;
+}
+main .sixth-section .content .top-heading h1 {
+  font-size: 6em;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+}
+main .sixth-section .content .boxs {
+  padding-top: 1em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+main .sixth-section .content .boxs .box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  border-bottom: 1px solid rgb(143, 143, 143);
+  padding-bottom: 2em;
+}
+main .sixth-section .content .boxs .box P {
+  opacity: 0.7;
+  font-family: monospace;
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+main .sixth-section .content .boxs .box h3 {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+main .seventh-section {
+  padding: 0 1.3rem;
+  padding-top: 2em;
+  width: 100%;
+}
+main .seventh-section .top-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+main .seventh-section .top-content h1 {
+  font-size: 3em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+main .seventh-section .top-content p {
+  padding-top: 0.8em;
+  width: 100%;
+  font-size: 1.4em;
+  font-family: monospace;
+  opacity: 0.8;
+}
+main .seventh-section .bottom-content {
+  width: 100%;
+  padding-top: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  justify-content: space-between;
+}
+main .seventh-section .bottom-content .box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+main .seventh-section .bottom-content .box h3 {
+  text-transform: uppercase;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+main .seventh-section .bottom-content .box .img {
+  width: 100%;
+}
+main .seventh-section .bottom-content .box .img img {
+  width: 98%;
+  aspect-ratio: 1/1.3;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .seventh-section .bottom-content .box .details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+main .seventh-section .bottom-content .box .details p {
+  padding-top: 0;
+  width: 70%;
+  font-size: 1.2em;
+  font-family: monospace;
+  opacity: 0.9;
+  text-transform: uppercase;
+}
+main .seventh-section .bottom-content .box .details .icons {
+  width: 24%;
+}
+main .seventh-section .bottom-content .box .details .icons i {
+  font-size: 1em;
+}
+main .seventh-section .bottom-content .box p {
+  padding-top: 1em;
+  font-size: 1.2em;
+  font-family: monospace;
+  opacity: 0.5;
+}
+main .eight-section {
+  padding: 0 1.3rem;
+  width: 100%;
+  margin-top: 2em;
+  padding-bottom: 3em;
+}
+main .eight-section .content {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  border-top: 1px solid rgb(202, 202, 202);
+}
+main .eight-section .content p {
+  padding-top: 0.8em;
+  width: 100%;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-family: monospace;
+}
+main .eight-section .content h1 {
+  font-size: 2.4em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+main .eight-section .content .box {
+  display: flex;
+  align-items: center;
+}
+main .eight-section .content .box i {
+  padding: 0.4em 0.45em;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+}
+main .eight-section .content .box p {
+  padding-top: 0;
+  padding-left: 1em;
+}
+main .ninth-section {
+  width: 100%;
+  background-color: black;
+}
+main .ninth-section .content {
+  padding: 4rem 1.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+main .ninth-section .content h1 {
+  text-transform: uppercase;
+  font-size: 3.9em;
+  color: white;
+  font-weight: 400;
+}
+main .ninth-section .content h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  line-height: 1em;
+  color: white;
+  font-weight: 400;
+}
+main .ninth-section .content button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  font-family: monospace;
+  text-transform: uppercase;
+  padding: 0.5em 1em;
+  border-radius: 2em;
+  font-size: 1.3em;
+}
+main footer {
+  width: 100%;
+  background-color: black;
+}
+main footer .boxs {
+  padding: 2em 1.3rem;
+  width: 100%;
+  gap: 2.5em;
+  display: flex;
+  flex-direction: column;
+}
+main footer .boxs .box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3em;
+}
+main footer .boxs .box i {
+  padding: 0.5em;
+  border-radius: 50%;
+  background-color: white;
+}
+main footer .boxs .box p {
+  font-family: monospace;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  color: white;
+}
+main footer .boxs .box h3 {
+  text-transform: uppercase;
+  font-size: 1.3em;
+  font-weight: 400;
+  color: white;
+}
+main footer .boxs .box .socials {
+  align-items: center;
+  display: flex;
+  gap: 1em;
+}
+main footer .boxs .box button {
+  width: 50%;
+  padding: 0.6em;
+  font-family: monospace;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  border-radius: 2em;
+}
+main .last-section {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .last-section h3 {
+  padding: 1em;
+  font-size: 1em;
+  font-family: monospace;
+  color: gray;
+  text-transform: uppercase;
+}
+
+@media (min-width: 600px) {
+  main {
+    padding-top: 3.5rem;
+  }
+  main nav {
+    padding: 0 3.5rem;
+  }
+  main .first-section {
+    padding: 3.5rem;
+  }
+  main .second-section {
+    padding: 0 3.5rem;
+    flex-direction: row-reverse;
+    gap: 2em;
+  }
+  main .second-section .top-img {
+    width: 50%;
+  }
+  main .second-section .top-img img {
+    aspect-ratio: 1/1.2;
+  }
+  main .second-section .bottom {
+    width: 50%;
+    justify-content: space-between;
+  }
+  main .second-section .bottom .text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+  }
+  main .second-section .bottom .text h1 {
+    font-size: 5em;
+    font-weight: 500;
+  }
+  main .second-section .bottom .text p {
+    font-size: 2em;
+  }
+  main .third-section {
+    padding: 3.5rem;
+    flex-direction: row;
+    gap: 3em;
+  }
+  main .third-section .top-img {
+    width: 33%;
+  }
+  main .third-section .text {
+    width: 67%;
+    flex-direction: row-reverse;
+    gap: 2em;
+  }
+  main .third-section .text .vertical-text p {
+    padding-top: 1em;
+  }
+  main .third-section .text .bottom-text {
+    justify-content: space-between;
+  }
+  main .third-section .text .bottom-text h1 {
+    font-size: 6em;
+  }
+  main .third-section .text .bottom-text p {
+    width: 80%;
+    font-size: 1.6em;
+    line-height: 1.4;
+    font-family: monospace;
+    padding-bottom: 2em;
+  }
+  main .fourth-section {
+    padding: 0 3.5rem;
+    padding-top: 2em;
+    flex-direction: row;
+  }
+  main .fourth-section .left {
+    width: 50%;
+    gap: 4em;
+  }
+  main .fourth-section .left h1 {
+    line-height: 1em;
+    font-size: 7em;
+  }
+  main .fourth-section .left .boxs {
+    flex-direction: column;
+    gap: 4em;
+    width: 100%;
+  }
+  main .fourth-section .left .boxs .first-box {
+    width: 100%;
+    flex-direction: row;
+    gap: 4em;
+  }
+  main .fourth-section .left .boxs .first-box .box {
+    border-top: 1px solid rgb(155, 153, 153);
+    gap: 1em;
+  }
+  main .fourth-section .left .boxs .first-box .box h3 {
+    font-size: 2em;
+  }
+  main .fourth-section .left .boxs .second-box {
+    flex-direction: row;
+    gap: 2em;
+  }
+  main .fourth-section .left .boxs .second-box .box {
+    padding-top: 1em;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgb(203, 203, 203);
+  }
+  main .fourth-section .left .boxs .second-box .box h3 {
+    font-size: 2em;
+  }
+  main .fourth-section .right {
+    width: 50%;
+  }
+  main .fourth-section .right .bg-img {
+    width: 100%;
+  }
+  main .fourth-section .right .bg-img img {
+    width: 100%;
+  }
+  main .fifth-section {
+    padding: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 100%;
+  }
+  main .fifth-section h1 {
+    text-align: center;
+    font-size: 11em;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  main .fifth-section .top-imgs {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  main .fifth-section .bottom-imgs {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  main .fifth-section .img {
+    width: 30%;
+  }
+  main .fifth-section .img img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main .fifth-section .img:nth-child(2) {
+    display: initial;
+  }
+  main .fifth-section .text {
+    justify-content: space-between;
+    width: 30%;
+  }
+  main .fifth-section .text .top-box {
+    padding-top: 2rem;
+    gap: 1em;
+  }
+  main .fifth-section .text .top-box h3 {
+    font-size: 5em;
+  }
+  main .sixth-section {
+    padding: 0 3.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-end;
+  }
+  main .sixth-section .content {
+    width: 65%;
+  }
+  main .sixth-section .content .top-heading h1 {
+    font-size: 7.5em;
+    font-weight: 500;
+    text-align: end;
+  }
+  main .sixth-section .content .boxs .box {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  main .sixth-section .content .boxs .box .top-content {
+    align-items: center;
+    display: flex;
+    gap: 2em;
+  }
+  main .seventh-section {
+    padding: 3.5rem;
+  }
+  main .seventh-section .top-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+  }
+  main .seventh-section .top-content h1 {
+    width: 50%;
+    font-size: 8em;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  main .seventh-section .top-content p {
+    width: 50%;
+    font-size: 1.9em;
+    font-family: monospace;
+    opacity: 0.8;
+  }
+  main .seventh-section .bottom-content {
+    padding-top: 4em;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+  }
+  main .seventh-section .bottom-content .box {
+    width: 23%;
+  }
+  main .seventh-section .bottom-content .box h3 {
+    font-size: 1.9em;
+  }
+  main .seventh-section .bottom-content .box .details p {
+    font-size: 1.5em;
+  }
+  main .seventh-section .bottom-content .box .details .icons i {
+    font-size: 1.3em;
+  }
+  main .seventh-section .bottom-content .box p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+  }
+  main .eight-section {
+    padding: 3.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  main .eight-section .content {
+    width: 48%;
+  }
+  main .eight-section .content P {
+    padding-top: 2em;
+    font-size: 1.3em;
+  }
+  main .eight-section .content h1 {
+    font-size: 4.8em;
+  }
+  main .eight-section .content .box {
+    padding-top: 1em;
+  }
+  main .ninth-section {
+    padding: 2em 2rem;
+  }
+  main .ninth-section .content h1 {
+    font-size: 15em;
+  }
+  main .ninth-section .content h3 {
+    width: 75%;
+    font-size: 4.7em;
+    padding-bottom: 0.7em;
+  }
+  main footer .boxs {
+    padding: 5rem;
+    flex-direction: row;
+  }
+  main footer .boxs .box {
+    padding-left: 2em;
+  }
+  main footer .boxs .box button {
+    background-color: white;
+    width: 70%;
+  }
+}/*# sourceMappingURL=style.css.map */
