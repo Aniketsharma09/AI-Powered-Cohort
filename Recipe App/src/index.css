@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+*::-webkit-scrollbar{
+    display: none;
+}
+:root {
+  /* Background Gradient - soft white to bluish-fog */
+  --bg-gradient: linear-gradient(to bottom right, #f9fafb, #e8f5f4); /* white fog to pale aqua */
+
+  /* Logo Color - bureau green */
+  --logo-color: #147a74; /* custom bureau green (close to teal-700 with less blue) */
+
+  /* Headings - deep teal for emphasis */
+  --heading-color: #0f4c45; /* dark bureau green */
+
+  /* Subheadings - soft aqua green */
+  --subheading-color: #20c997; /* teal/minty green - close to Tailwind teal-400 */
+
+  /* Paragraph text - dark slate blue-green */
+  --paragraph-color: #2a3f45; /* slate-teal blend, readable and muted */
+
+  /* Card Background - pure white with teal border hint */
+  --card-bg: #ffffff;
+  --card-border: #a7f3d0; /* mint green - Tailwind green-200 */
+
+  /* Form Background - very light mint-aqua */
+  --form-bg: #ecfdf5; /* Tailwind emerald-50 */
+  --form-border: #5eead4; /* aqua/mint - Tailwind teal-300 */
+
+  /* Buttons - Teal gradients */
+  --btn-primary: #14b8a6;       /* teal-500 */
+  --btn-primary-hover: #0d9488; /* teal-600 */
+
+  /* Update Button - brighter aquamarine */
+  --btn-update: #2dd4bf;        /* teal-400 */
+  --btn-update-hover: #0f766e;  /* teal-700 */
+
+  /* Delete Button - soft red (for contrast) */
+  --btn-delete: #ef4444;       /* red-500 */
+  --btn-delete-hover: #dc2626; /* red-600 */
+}
